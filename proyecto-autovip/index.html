@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!------------------------ BARRA DE NAVEGACIÓN ----------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-2 border-warning">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/automotora_vip_logo.png" alt="" width="120" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu-desplegable"
+          aria-controls="menu-desplegable"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu-desplegable">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="ventas.html">Venta 0km</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ventas.html">Venta Usados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!------------------------ CARRUSEL (imagenes) ----------------------->
+    <div
+      id="carrusel"
+      class="carousel slide border-warning"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active position-relative">
+          <img src="img/cars_home/audi_1.jpg" class="d-block w-100" alt="" />
+          <div class="carousel-caption-marca position-absolute text-white">
+            Audi
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <img src="img/cars_home/volvo_1.jpg" class="d-block w-100" alt="" />
+          <div class="carousel-caption-marca position-absolute text-white">
+            Volvo
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <img src="img/cars_home/audi_2.jpg" class="d-block w-100" alt="" />
+          <div class="carousel-caption-marca position-absolute text-white">
+            Audi
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <img src="img/cars_home/bmw_1.jpg" class="d-block w-100" alt="" />
+          <div class="carousel-caption-marca position-absolute text-white">
+            BMW
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <img src="img/cars_home/bentley_1.jpg" class="d-block w-100" alt="" />
+          <div class="carousel-caption-marca position-absolute text-white">
+            Bentley
+          </div>
+        </div>
+      </div>
+      <!------------ CARRUSEL (indicadores y botones) ------------>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carrusel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="slide1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carrusel"
+          data-bs-slide-to="1"
+          aria-label="slide2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carrusel"
+          data-bs-slide-to="2"
+          aria-label="slide3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carrusel"
+          data-bs-slide-to="3"
+          aria-label="slide4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carrusel"
+          data-bs-slide-to="4"
+          aria-label="slide5"
+        ></button>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carrusel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carrusel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+    <!------------------------ TITULO BIENVENIDO ----------------------->
+    <div class="container mt-4 mb-4">
+      <h1>
+        Bienvenido a <span class="logo-auto">AUTO</span
+        ><span class="logo-vip">VIP</span>
+      </h1>
+      <!-------------------------- TARJETA VENTA DE 0KM --------------------->
+      <div class="row mt-4">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header">
+              <h5 class="card-title">
+                <i class="bi bi-car-front-fill me-2"></i>Venta de 0km
+              </h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque id beatae ratione dolore fugiat dignissimos! Quas,
+                nam commodi eligendi corrupti laboriosam consequuntur, deleniti
+                nihil, veniam voluptatibus sunt recusandae magni iste?
+              </p>
+              <a href="ventas.html" class="btn btn-outline-secondary"
+                >Ver autos</a
+              >
+            </div>
+          </div>
+        </div>
+        <!--------------------- TARJETA VENTA DE USADOS --------------------->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header">
+              <h5 class="card-title">
+                <i class="bi bi-megaphone-fill me-2"></i>Venta de Usados
+              </h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque id beatae ratione dolore fugiat dignissimos! Quas,
+                nam commodi eligendi corrupti laboriosam consequuntur, deleniti
+                nihil, veniam voluptatibus sunt recusandae magni iste?
+              </p>
+              <a href="ventas.html" class="btn btn-outline-secondary"
+                >Ver autos</a
+              >
+            </div>
+          </div>
+        </div>
+        <!--------------------- TARJETA TRAMITES --------------------->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-header">
+              <h5 class="card-title">
+                <i class="bi bi-file-earmark-text me-2"></i>Trámites
+              </h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque id beatae ratione dolore fugiat dignissimos! Quas,
+                nam commodi eligendi corrupti laboriosam consequuntur, deleniti
+                nihil, veniam voluptatibus sunt recusandae magni iste?
+              </p>
+              <a href="" class="btn btn-outline-secondary">Ver trámites</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------ FOOTER ----------------------->
+    <footer class="bg-dark text-white py-3 mt-5 border-warning">
+      <div class="container">
+        <div class="row pt-3">
+          <div class="col-md-3">
+            <a href="index.html"
+              ><img src="img/automotora_vip_logo.png" alt="" width="120"
+            /></a>
+          </div>
+          <div class="col-md-3">
+            <ul class="list-unstyled">
+              <li>
+                <a href="ventas.html" class="text-white text-decoration-none"
+                  >Venta 0km</a
+                >
+              </li>
+              <li>
+                <a href="ventas.html" class="text-white text-decoration-none"
+                  >Venta Usados</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="sobre-nosotros.html"
+                  class="text-white text-decoration-none"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li>
+                <a href="" class="text-white text-decoration-none">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <p>
+              <small
+                >Copyright <i class="bi bi-c-circle"></i> AutoVIP 2023</small
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+.navbar {
+  border-bottom: 4px solid;
+}
+.borde-imagen {
+  border: 1px solid rgb(201, 201, 201);
+}
+footer {
+  border-top: 4px solid;
+}
+#carrusel .carousel-item{
+    height: 600px;
+    min-height: 400px;
+  background-color: #614e4e;
+  position: relative;
+}
+
+#carrusel .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+@media (max-width: 767.98px) {
+  #carrusel .carousel-item{
+    height: 30vh;
+    min-height: 250px;
+  }
+}
+#carrusel{
+    border-bottom: 4px solid;
+}
+.carousel-caption-marca{
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.logo-vip{
+font-weight: bold;
+}
+.logo-auto{
+  font-weight: lighter;
+}
+.imagen-sobre-nosotros{
+  border: 1px solid rgb(201, 201, 201);
+}
